@@ -1,0 +1,20 @@
+.container-table{
+    width: 80%;
+    margin: auto;
+    padding: 3%;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table th, table td{
+    border: 1px solid rgb(141, 41, 141);
+    padding: 5px;
+}
+table .title{
+    background-color: rgb(222, 154, 222);
+    color: #fff;
+    font-weight: 600;
+    padding: 2%;
+    font-size: 24px;
+}

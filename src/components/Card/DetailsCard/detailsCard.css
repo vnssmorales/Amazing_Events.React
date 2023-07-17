@@ -1,0 +1,19 @@
+.card-details{
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.card-details img{
+    width: 50%;
+    object-fit: cover;
+    margin-bottom: 8px;
+    padding: 2%;
+}
+.card-details .card-body {
+    padding: 2%;
+}

@@ -1,0 +1,24 @@
+.contenedor-form{
+    width: 60%;
+    margin: auto;
+    padding: 3%;
+    height: 100vh;
+}
+.contenedor-form form input, .contenedor-form form textarea {
+    width: 100%;
+    padding: 2%;
+    margin-bottom: 2%;
+    border: 1px solid rgb(141, 41, 141);
+    border-radius: 8px;
+}
+.contenedor-form button {
+    width: 100px;
+    padding: 5px 10px;
+    margin-bottom: 2%;
+    border: 1px solid rgb(141, 41, 141);
+    border-radius: 8px;
+    background-color: rgb(141, 41, 141);
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}

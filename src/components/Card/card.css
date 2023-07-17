@@ -1,0 +1,73 @@
+.card{
+    width: 100%;
+    max-width: 300px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    padding: 16px;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card p {
+    font-size: 16px;
+    margin-bottom: 8px;
+    height: 110px;
+}
+.card h3 {
+    font-size: 13px;
+}
+.card h4 {
+    color: rgb(153, 53, 246);
+    padding: 2% 0px 3%;
+}
+.card .card-title{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.contenedor-card{
+    padding-top: 1%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: auto;
+}
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    background-color: rgb(212, 194, 206)!important;
+    color: rgb(77, 72, 77);
+    padding: 2% 5%;
+    border-radius: 8px;
+}
+.card-footer h4{
+    padding: 5%;
+    font-size: 20px;
+}
+.contenedor-filtros{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding: 2% 0px;
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .card{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .card{
+        max-width: 100%;
+    }
+}
